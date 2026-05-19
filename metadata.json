@@ -1,0 +1,18 @@
+{
+  "KPlugin": {
+    "Name": "Snapped Overlap Minimize",
+    "Description": "Minimize windows only when they are underneath snapped, tiled, maximized, or fullscreen windows.",
+    "Icon": "preferences-system-windows",
+    "Authors": [
+      {
+        "Name": "YOUR NAME"
+      }
+    ],
+    "Id": "snapped-overlap-minimize",
+    "Version": "1.0.0",
+    "License": "GPL-3.0-or-later"
+  },
+  "KPackageStructure": "KWin/Script",
+  "X-Plasma-API": "javascript",
+  "X-Plasma-MainScript": "code/main.js"
+}
